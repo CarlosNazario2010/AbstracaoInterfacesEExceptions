@@ -1,0 +1,50 @@
+
+
+
+									CONTA  ------------>> CLIENTE
+							   (abstract class)         (composicao)
+							   		  |
+							   		  |
+		  CONTA CORRENTE  <<---------------------->>  CONTA POUPANCA
+		        |
+		        |
+		  		<<---------  OBJETO TRIBUTAVEL  -------->> SEGURO DE VIDA
+		  						 (interface)
+		  						      |
+		  						      |
+		  						      ------->> CALCULADOR DE IMPOSTOS
+		  						      
+		  						      
+		  			
+		  						      
+		  	obs -  heranca é mais comum em bibliotecas e em aplicacoes mobile e desktop
+		  		   interfaces sao mais comum em conexao com banco de dados
+		  		   
+		  		   
+		  		   
+		  		   
+		  							HERANCA
+		  							
+		  							
+		  											  ---->>> jTextField	
+		  				                              |
+		  						---->>> jTextComponent  
+                               |          (abstract)  |
+		  	jComponent(abstract)  		  			   ---->>> jTexArea	
+					           |
+					           ---->>>> jAbstractButton 	   
+                                           (abstract)	|
+                                           				---->>> JButton	  	
+                                           				
+                                           				
+                                           				
+                                    INTERFACE
+                                    
+										   ---->>> MySqlConnection                                    
+                                    	  |
+                     Connection(interface)
+                                    	  |
+                                    	   ---->>> OracleConnection
+                                    	 
+		  		         
+  						      

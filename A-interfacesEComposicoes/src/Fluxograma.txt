@@ -1,0 +1,47 @@
+      
+					     RELACIONENTO DAS CLASSES, INTERFACES E COMPOSICOES
+					   
+					   
+					      
+					    FUNCIONARIOS (abstract class)
+					      		|
+					      		|      heranca
+					        <<-------------------------->>		
+					        |             |              |       					
+					        |             |              |
+					---<< GERENTE     SUPERVISOR     PROGRAMADOR      CLIENTE >>-
+					|     	|			  |                             |       |
+					|     	|             |                             |       |
+					|       <<----------------------------------------->>       | 
+					|     		 |		interface                               |
+					|     		 |                                              |
+					|    SUJEITO AUTENTICAVEL -------->> SISTEMA INTERNO        |
+					|    	 (interface)                                        |
+					|     	                                                    |
+					--------------->>   AUTENTICACAO UTIL   <<-------------------
+     	 			  composicao        (compossicao)              composicao
+     	 			  
+     	 			  
+     	 
+     	 NA HERAMCA - se herda todos os atrinutos e metodos. Só há heranca simples 
+     	 			  (uma classe filha so pode ter uma classe mae)
+     	 NA INTERFACE - possui somente os metodos abstratos que devem ser implementados.
+     	 			  Uma classe pode implementar varias interfaces
+     	 NA COMPOSICAO - uma classe recebe uma instancia de outra classe
+     	 			  
+     	 			  
+     	 			  
+					     	 			     HERANCA NO JAVA
+					     	 			  			|
+					     	 			  			|
+					     	 		<<------------------------------>> 			
+					     	 		|                                |	  			
+					     	 		|                                |
+		   COMPOSICAO ---->> REUTILIZACAO DE                    POLIMORFISMO  <<---- INTERFACES  
+					     	 	 CODIGO		                         
+					     	 	 
+		  obs - COMO A HERANCA GERA UM GRANDE ACOPLAMENTO ENTRE AS SUPERCLASSES E SUAS FILHAS,
+		  		É COMUM A UTLIZACAO DE INTERFACES E COMPOSICOES AO INVES DA HERANCA PROPRIAMENTE
+     	 			  			                 
+     	 			  			                 
+     	 			  			             
